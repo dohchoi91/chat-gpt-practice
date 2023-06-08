@@ -1,7 +1,7 @@
 import streamlit as st
 import openai
 
-openai.api_key = ""
+openai.api_key = st.secrets["api_key"]
 
 st.title("한화생명 ChatGPT Plus DALL-E")
 
@@ -35,5 +35,5 @@ if submit and user_input:
             prompt=prompt,
             size=size
         )
-
+    
     st.image(dalle_response["data"][0]["url"])
