@@ -4,5 +4,5 @@
 
 ### 구성1 : open-api-call(오픈 api 호출)  
 ### 구성2 : chat-gpt-app(streamlit)
-### 구성3 : ask-multi-pdf(PDF로드)
+### 구성3 : ask-multi-pdf(streamlit with PDF로드)
 
